@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Velishala Abhivarun - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #0d6efd;
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffc107;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 25px;
+    }
+
+    /* Section Colors */
+    #home {
+      background-color: #e6f0ff;
+    }
+
+    #portfolio {
+      background-color: #e9fce9;
+    }
+
+    #contact {
+      background-color: #fff3cd;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      background-color: #198754;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #157347;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a.linkedin-link {
+      display: inline-block;
+      margin-top: 5px;
+      padding: 6px 12px;
+      background-color: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.linkedin-link:hover {
+      background-color: #005983;
+    }
+
+    @media (max-width: 600px) {
+      form {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+<!-- Home Section -->
+<div class="container" id="home">
+  <h1>Hello, I'm Velishala Abhivarun</h1>
+  <p>Welcome to my professional webpage! I specialize in web development, building responsive and modern websites with clean design and efficient code.</p>
+  
+  <!-- ✅ Embedded hosted image -->
+  <img src="https://assets.onecompiler.app/43abwk5pn/43kka6xnk/professional-web-developer.jpg" alt="Professional Web Developer Image" />
+  
+  <form>
+    <input type="text" placeholder="Enter your name" required />
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+
+
+<!-- Portfolio Section -->
+<div class="container" id="portfolio">
+  <h2>My Bio Data</h2>
+  <p><strong>Name:</strong> Velishala Abhivarun</p>
+  <p><strong>Profession:</strong> Web Developer</p>
+  <p><strong>Stream:</strong> CSE-AIML</p>
+  <p><strong>Projects:</strong></p>
+  <ul>
+    <li>House Rent Prediction using Machine Learning</li>
+    <li>Plant Disease Detection using CNN</li>
+    <li>Flower Image Processing using Edge Detection</li>
+    <li>Fake and Real Email Detection using NLP</li>
+  </ul>
+  <p><strong>LinkedIn:</strong></p>
+  <a href="https://www.linkedin.com/in/velishala-abhivarun-b12b2a283" target="_blank" class="linkedin-link">Visit My LinkedIn</a>
+</div>
+
+<!-- Contact Section -->
+<div class="container" id="contact">
+  <h2>Contact Me</h2>
+  <p><strong>Phone:</strong> 8106968216</p>
+  <p><strong>Email:</strong> velishalaabhivarun12@gmail.com</p>
+  <p><strong>Address:</strong> Hanamkonda, Telangana, India</p>
+</div>
+
+</body>
+</html>
